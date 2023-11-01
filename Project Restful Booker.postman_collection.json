@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "3c05369d-418e-4227-8dc3-bfd498aa2200",
+		"name": "Project Restful Booker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25459756",
+		"_collection_link": "https://solar-meteor-733331.postman.co/workspace/mywork~ce4468c1-ccc5-40e3-898c-488a8f601847/collection/25459756-3c05369d-418e-4227-8dc3-bfd498aa2200?action=share&source=collection_link&creator=25459756"
+	},
+	"item": [
+		{
+			"name": "Create Token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://restful-booker.herokuapp.com/auth",
+					"protocol": "https",
+					"host": [
+						"restful-booker",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"auth"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
