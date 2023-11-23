@@ -1,6 +1,4 @@
 # API-TestingProjects
-Certainly! Below are a few lines you can use for GitHub to highlight your API testing projects on Reqres and Restful Booker:
-
 ---
 
 **1. Reqres API Testing Project:**
